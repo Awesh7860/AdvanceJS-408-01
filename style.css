@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainsection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.uppersection{
+width: 80%;
+height: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.middlesection{
+    width: 80%;
+height: 10%;  
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 1rem;
+}
+.userinput{
+    width: 18%;
+    height: 80%;
+    margin: 0.3rem;
+}
+.btn{
+    width: 18%;
+    height: 80%; 
+    background-color: gray;
+}
+.lowersection{
+    width: 80%;
+    height: 68%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card{
+    width:94%;
+    height: 10%;
+    margin-bottom: 0.2rem;
+    display: flex;
+    background-color: gray;
+}
+.fullName,.countryName,.score,.buttons{
+width: 25%;
+height: 100%;
+display: flex;
+align-items: center;
+}
+.btn1{
+    width: 12%;
+    height: 90%;
+    margin-left: 0.2rem;
+    border-radius: 50%;
+    border: none;
+}
